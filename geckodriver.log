@@ -1,0 +1,80 @@
+1548250431730	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dcherkas\\AppData\\Local\\Temp\\rust_mozprofile.iXjIvjZz9DVp"
+1548250440531	Marionette	INFO	Listening on port 65095
+1548250440591	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.jabil.com/etc/clientlibs/foundation/personalization/integrations/commons.min.7a67d26e2d60b6aea077e3ebeb53936c.js, line 1: ReferenceError: CQ_Analytics is not defined
+JavaScript error: https://www.jabil.com/, line 1311: TypeError: CQ_Analytics.DataProvider is undefined
+JavaScript error: https://www.jabil.com/, line 1375: TypeError: CQ_Analytics.DataProvider is undefined
+JavaScript error: https://js.hscollectedforms.net/collectedforms.js, line 1: TypeError: leadin.errorReporter is undefined
+[Parent 3532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1548250656842	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dcherkas\\AppData\\Local\\Temp\\rust_mozprofile.CE7WAnWxOTMN"
+1548250661321	Marionette	INFO	Listening on port 65347
+1548250661837	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.ads-twitter.com/uwt.js, line 1: TypeError: document.body is null
+JavaScript error: https://static.ads-twitter.com/uwt.js, line 1: TypeError: document.body is null
+JavaScript error: https://static.ads-twitter.com/uwt.js, line 1: TypeError: document.body is null
+[Parent 4964, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 20
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
