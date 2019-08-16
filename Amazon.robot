@@ -17,6 +17,6 @@ User must sign in to check out
     Click Link    css=.visible-link-url>a
     Page Should Contain Element    css=.container-fluid.pagehero.solutionspechero>h1>div
     Element Text Should Be    css=.container-fluid.pagehero.solutionspechero>h1>div    Records
-#    Close Browser
+    Close Browser
 
 *** Keywords ***

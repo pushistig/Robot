@@ -11,221 +11,212 @@ Resource         recource.robot
 1) User can serch for product
     [Documentation]    This is some basic info about the test
     [Tags]    Smoke
-#   Открываем браузер "Хром"
+#   Open the browser "Chrome"
     open browser    https://elmir.ua    chrome
-#   Раскрываем браузер на весь экран
+#   Open the browser in full screen.
     Maximize Browser Window
-#   Ждём пока загрузится контент "Контакты"
+#   Waiting for the "Contacts" content to load
     wait until page contains    Контакты
-#   Вводим в поисковую строку название "core i5-7400"
+#   Enter in the search box the name "core i5-7400"
     input text    id=q    core i5-7400
-#   Нажимаем на кнопку поиска
+#   Click on the search button
     click button    xpath=//*[@id="find"]
-#   Ждём пять секунд
+#   Waiting for five seconds
     sleep    5s
-#   Закрываем браузер
     close browser
 
 
 1.1) User can serch for product
     [Documentation]    This is some basic info about the test
     [Tags]    Smoke
-#   Открываем браузер "Хром"
+#   Open the browser "Chrome"
     open browser    https://elmir.ua    chrome
-#   Раскрываем браузер на весь экран
+#   Open the browser in full screen
     Maximize Browser Window
-#   Ждём пока загрузится контент "Контакты"
+#   Waiting for the "Contacts" content to load
     wait until page contains    Контакты
-#   Вводим в поисковую строку название "DVD-R Verbatim"
+#   Enter the name "DVD-R Verbatim" into the search box
     input text    id=q    DVD-R Verbatim
-#   Нажимаем на кнопку поиска
+#   Click on the search button
     Press Key    name=q    \\13
-#   Ждём пять секунд
+#   Waiting for five seconds
     sleep    5s
-#   Закрываем браузер
     close browser
 
 2) User can view a product
    [Documentation]    This is some basic info about the test
    [Tags]    Smoke
-#  Открываем браузер "Хром"
-   open browser    https://elmir.ua    chrome
-#  Раскрываем браузер на весь экран
-   Maximize Browser Window
-#  Ждём пока загрузится контент "Контакты"
-   wait until page contains    Контакты
-#  Вводим в поисковую строку название "core i5-7400"
-   input text    id=q    core i5-7400
-#  Нажимаем на кнопку поиска
-   click button    xpath=//*[@id="find"]
-#  Ждём две секунд
-   sleep    2s
-#  Перейти в карточку товара "core i5-7400"
-   click link    css=#name423799
-#  Ждём пять секунд
-   sleep    5s
-#  Закрываем браузер
-   close browser
+#   Open the browser "Chrome"
+    open browser    https://elmir.ua    chrome
+#   Open the browser in full screen
+    Maximize Browser Window
+#   Waiting for the "Contacts" content to load
+    wait until page contains    Контакты
+#   Enter in the search box the name "core i5-7400"
+    input text    id=q    core i5-7400
+#   Click on the search button
+    click button    xpath=//*[@id="find"]
+#   Waiting for two seconds
+    sleep    2s
+#   Go to product card "core i5-7400"
+    click link    css=#name423799
+#   Waiting for five seconds
+    sleep    5s
+    close browser
 
 3) User can add 4 items to cart
     [Documentation]    This is some basic info about the test
     [Tags]    Smoke
-#   Открываем браузер "Хром"
+#   Open the browser "Chrome"
     open browser    https://elmir.ua    chrome
-#   Раскрываем браузер на весь экран
+#   Open the browser in full screen
     Maximize Browser Window
-#   Ждём пока загрузится контент "Контакты"
+#   Waiting for the "Contacts" content to load
     wait until page contains    Контакты
-#   Вводим в поисковую строку название "core i5-7400"
+#   Enter in the search box the name "core i5-7400"
     input text    id=q    core i5-7400
-#   Нажимаем на кнопку поиска
+#   Click on the search button
     click button    xpath=//*[@id="find"]
-#   Ждём две секунд
+#   Waiting for two seconds
     sleep    2s
-#   Перейти в карточку товара "core i5-7400"
+#   Go to product card "core i5-7400"
     click link    css=#name423799
-#   Добавить в корзину товар 1 "core i5-7400"
+#   Add item 1 "core i5-7400" to cart
     click element     xpath=//span[@class="tovar-price icon"]/..//a
-#   Ждём две секунд
+#   Waiting for two seconds
     sleep    2s
-#   Добавить в корзину товар 2 "core i5-7400"
+#   Add item 2 "core i5-7400" to cart
     click element     xpath=//span[@class="tovar-price icon"]/..//a
-#   Ждём две секунд
+#   Waiting for two seconds
     sleep    2s
-#   Добавить в корзину товар 3 "core i5-7400"
+#   Add item 3 "core i5-7400" to cart
     click element     xpath=//span[@class="tovar-price icon"]/..//a
-#   Ждём две секунд
+#   Waiting for two seconds
     sleep    2s
-#   Добавить в корзину товар 3 "core i5-7400"
+#   Add item 4 "core i5-7400" to cart
     click element     xpath=//span[@class="tovar-price icon"]/..//a
-#   Ждём пять секунд
+#   Waiting for five seconds
     sleep    5s
-    #  Закрываем браузер
     close browser
 
 4) User can buy product
     [Documentation]    This is some basic info about the test
     [Tags]    Smoke
-#   Открываем браузер "Хром"
+#   Open the browser "Chrome"
     open browser    https://elmir.ua    chrome
-#   Раскрываем браузер на весь экран
+#   Open the browser in full screen
     Maximize Browser Window
-#   Ждём пока загрузится контент "Контакты"
+#   Waiting for the "Contacts" content to load
     wait until page contains    Контакты
 
 
-#   Вводим в поисковую строку название "core i5-7400"
+#   Enter in the search box the name "core i5-7400"
     input text    id=q    core i5-7400
-#   Нажимаем на кнопку поиска
+#   Click on the search button
     click button    xpath=//*[@id="find"]
+#   Waiting for two seconds
     sleep    2s
 
 
-#   Перейти в карточку товара "core i5-7400"
+#   Go to product card "core i5-7400"
     click link    css=#name423799
-#   Добавить в корзину товар 1 "core i5-7400"
+#   Add item 1 "core i5-7400" to cart
     click element     xpath=//span[@class="tovar-price icon"]/..//a
     sleep    2
-#   Переходим в корзину
+#   Go to the basket
     click element     xpath=//*[@id="basket-text"]
     sleep    2s
-#   Нажимаем на кнопку оформить заказ
+#   Click on the checkout button
     click element     xpath=//*[@id="show-steps"]
     sleep    2s
 
-#   Ввод информации в форму "Данные о покупателе:"
-#   Вводим в поисковую строку название "core i5-7400"
+#   Enter information in the form "Information about the buyer:"
     input text    id=surname    Зеленский
     sleep    1
-#   Вводим в поисковую строку название "core i5-7400"
     input text    id=name    Владимир
     sleep    1
-#   Вводим в поисковую строку название "core i5-7400"
     input text    id=patronymic    Александрович
     sleep    1
-#   Вводим в поисковую строку название "core i5-7400"
     input text    id=email    mr_president@gmail.com
     sleep    1
-#   Вводим в поисковую строку название "core i5-7400"
     input text    id=phone    1234567
     sleep    1
 
-#   Выбор города
+#   City selection
     click element     xpath=//*[@id="form-step-1"]/div/table/tbody/tr[6]/td[2]/span
     sleep    4
-#   Ожидание
+#   Waiting
     wait until element is visible            //*[@id="sc-1"]
-#   Выбираем  Харьков
+#   Choosing Kharkov
     click element     xpath=//*[@id="sc-1"]
     sleep    2
-#   Нажимаем на кнопку выбрать
+#   Press the button to select
     click button    xpath=//*[@id="change-city-form"]/form/div/button
     sleep    2
 
-#   Вводим коммент
+#   Enter comments
     input text    id=comment    Vova mi tebya gdem...
     sleep    2
-#   Нажимаем на кнопку к доставке
+#   Click on the button for delivery
     click button    xpath=//*[@id="next-step-1"]
     sleep    4
 
-#   Доставка:
-#   Самовывоз
+#   Delivery:
+#   Choosing Pickup
     click button    xpath=//*[@id="dt-1"]
     sleep    5
 #   г. Харьков, ул. Алчевских, 36
     click button    xpath=//*[@id="post_4687"]
     sleep    2
-#   К оплате
+#   To pay
     click button    xpath=//*[@id="next-step-2"]
     sleep    2
-#   Наличными
+#   In cash
     click button   xpath=//*[@id="payment_0"]
     sleep    2
-#   Проверить данные
+#   Check data
     click button    xpath=//*[@id="next-step-3"]
     sleep    2
-#   Убираем отправку письма на почту
+#   Remove sending the letter on mail
     click button    xpath=//*[@id="email_notify"]
     sleep    2
-#   Отправить заказ
+#   Send an order
     click button    xpath=//*[@id="next-step-4"]
     sleep    2
-#   Закрываем браузер
     close browser
 
 5) User can back call
     [Documentation]    This is some basic info about the test
     [Tags]    Smoke
-#   Открываем браузер "Хром"
+#   Open the browser "Chrome"
     open browser    https://elmir.ua    chrome
-#   Раскрываем браузер на весь экран
+#   Open the browser in full screen
     Maximize Browser Window
-#   Ждём пока загрузится контент "Контакты"
+#   Waiting for the "Contacts" content to load
     wait until page contains    Контакты
-#   Перезвонить мне
+#   Call me back
     sleep    5s
-#   Вводим номер
-    execute javascript  window.scrollTo(0, document.body.scrollHeight)
-    click element    xpath: //span[@id="acallback"]
+#   Scroll to the desired button on the screen
+    execute javascript  window.scrollTo(0, 180)
+#   execute javascript  window.scrollTo(0, document.body.scrollHeight)
+    click element    xpath: //*[@id="acallback"]
     sleep    3s
+#   Enter the number
     input text    id=special-tel    671231234
     sleep    3s
-#   Нажимаем на кнопку поиска
+#   Click on the search button
     click button    xpath=//*[@id="cb-form"]/div[5]/input
     sleep    3s
-
-#   Закрываем браузер
     close browser
 
 6) Registration
     [Documentation]    This is some basic info about the test
     [Tags]    Smoke
-#   Открываем браузер "Хром"
+#   Open the browser "Chrome"
     open browser    https://elmir.ua/registration.html    chrome
-#   Раскрываем браузер на весь экран
+#   Open the browser in full screen
     Maximize Browser Window
-#   Ждём пока загрузится контент "Контакты"
+#   Waiting for the "Contacts" content to load
     wait until page contains    Контакты
 #   E-mail
     ${em}=                          Get Email
@@ -233,28 +224,24 @@ Resource         recource.robot
     #Set Suite Variable                  ${REG_EMAIL}                ${em}
 
     input text    id=email    ${em}
-#   sleep    1s
+    sleep    1s
 #   Password
     input text    id=password    $12345678
     sleep    1s
-#   Зарегистрироваться
+#   To register
     click button    xpath: //*[@id="do-registration"]
     sleep    3s
-
-#   Закрываем браузер
     close browser
-
-
 
 
 7) User can
     [Documentation]    This is some basic info about the test
     [Tags]    Smoke
-#   Открываем браузер "Хром"
+#   Open the browser "Chrome"
     open browser    https://elmir.ua    chrome
-#   Раскрываем браузер на весь экран
+#   Open the browser in full screen
     Maximize Browser Window
-#   Ждём пока загрузится контент "Контакты"
+#   Waiting for the "Contacts" content to load
     wait until page contains    Контакты
     click element       xpath: //*[contains(text(), "Доставка")]
     sleep    3s
@@ -274,13 +261,11 @@ Resource         recource.robot
     sleep    3s
     click element       xpath: //*[contains(text(), "Почему у нас покупают?")]
     sleep    3s
+#   scroll To "Услуги HDD"
     execute javascript  window.scrollTo(0, document.body.scrollHeight)
     sleep    3s
     click element       xpath: //*[contains(text(), "Услуги HDD")]
     sleep    3s
     click element       xpath: //*[contains(text(), "Техническая поддержка и услуги")]
     sleep    3s
-#   Закрываем браузер
     close browser
-
-
