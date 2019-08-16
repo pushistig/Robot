@@ -269,3 +269,7 @@ Resource         recource.robot
     click element       xpath: //*[contains(text(), "Техническая поддержка и услуги")]
     sleep    3s
     close browser
+
+
+
+    Last commit
